@@ -1,0 +1,21 @@
+<h1>{{ post.title }}</h1>
+<p>{{ post.content }}</p>
+
+<div class="row justify-space-between-md">
+  <div class="newPost-card">
+    <h2 class="page-title">New Post</h2>
+    <form class="form newPost-form">
+      <div class="form-group">
+        <label for="post-title">Title:</label>
+        <input class="form-input" type="text" id="post-title" />
+      </div>
+      <div class="form-group">
+        <label for="post-content">Content:</label>
+        <input class="form-input" type="text" id="post-content" />
+        </div>
+        <button class="btn btn-primary" type="submit">New Post</button>
+      
+    </form>
+  </div>
+
+  <script src="/js/newPost.js"></script>
