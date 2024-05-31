@@ -1,0 +1,62 @@
+.post-page{
+    padding: 2rem;
+}
+.post-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.post-card{
+    max-width: 35rem;
+    min-width: 17rem;
+    padding: 1rem;
+    background-color: tan;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+}
+h1 {
+    background-color: rgb(218, 230, 218);
+    color: rgb(25, 14, 27);
+    box-shadow: 4px 4px 8px grey;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(213, 235, 213);
+    background-color : rgb(37, 19, 37);
+    white-space: none;
+}
+
+.header {
+    background-color: rgb(37, 19, 37);
+}
+
+a {
+    color: rgb(219, 243, 219);
+    white-space: nowrap;
+}
+
+li {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+a:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.btn.btn-primary {
+    background-color: #2d3e50;
+    font-size: 40px;
+    color: #d9e9e8;
+}
